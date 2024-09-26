@@ -1,0 +1,25 @@
+
+.header{
+	background-color:black;
+	height: auto;
+}
+
+.about:hover .anim{
+	position: relative;
+  background-color: ;
+  animation-name: test;
+  animation-duration: 6s;
+  animation-delay: ;
+}
+@keyframes test{
+from{
+	opacity:0;
+	
+	
+}
+to{
+	opacity:1.0;
+	
+
+}
+}
