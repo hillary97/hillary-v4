@@ -3,23 +3,39 @@
 	background-color:black;
 	height: auto;
 }
+.hero{
+	margin: auto;
+	text-align: center;
+	transition: background-color 2s, border 4s,border-radius 4s,border-bottom-right-radius 4s;
+}
+.hero:hover{
+	background-color: black;
+	border: 1px solid darkorange;
+	border-style: dashed;
+	border-top-left-radius:100px ;
+	border-bottom-right-radius:100px ;
+}
 
-.about:hover .anim{
-	position: relative;
-  background-color: ;
-  animation-name: test;
-  animation-duration: 6s;
-  animation-delay: ;
+.about .anim{
+	transition: border-radius 1s, color 3s,font-size 3s,padding ;
 }
-@keyframes test{
-from{
-	opacity:0;
-	
-	
+.about :hover .anim{
+	border-radius: 50px;
+	margin: px;
+	font-size: 20px;
+	padding: 10px;
 }
-to{
-	opacity:1.0;
-	
 
+.sticky{
+	position: sticky;
+	top:0;
+	border-radius: 20px;
+	font-size: px;
+	padding: 0px 20px;
+
+	
 }
+.sticky:hover{
+	background-color: ;
 }
+
