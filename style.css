@@ -1,15 +1,18 @@
 
 .header{
-	background-color:black;
+	background-color:;
 	height: auto;
 }
 .hero{
 	margin: auto;
 	text-align: center;
 	transition: background-color 2s, border 4s,border-radius 4s,border-bottom-right-radius 4s;
+	justify-content: center;
+	align-items: center;
+	padding: 10px;
 }
 .hero:hover{
-	background-color: black;
+	background-color: ;
 	border: 1px solid darkorange;
 	border-style: dashed;
 	border-top-left-radius:100px ;
@@ -17,25 +20,60 @@
 }
 
 .about .anim{
-	transition: border-radius 1s, color 3s,font-size 3s,padding ;
+	transition:font-size 3s,opacity 2s,border-radius 2s,padding 2s ;
 }
 .about :hover .anim{
-	border-radius: 50px;
-	margin: px;
 	font-size: 20px;
 	padding: 10px;
+	opacity: 1.0;
+	border-radius: 20px;
+	background-image: linear-gradient(to right top, #09111d, #02181f, #041c1c, #101f17, #1d2114);
 }
 
-.sticky{
+/*.sticky{
 	position: sticky;
 	top:0;
 	border-radius: 20px;
 	font-size: px;
 	padding: 0px 20px;
+	background-image: linear-gradient(to right top, #09111d, #02181f, #041c1c, #101f17, #1d2114);
+	float: right;
+}
 
 	
 }
 .sticky:hover{
 	background-color: ;
+}*/
+ .kaman{
+ 	opacity: 0.8;
+ 	border-radius: 20px;
+ 	color: white;
+
+
+ }
+/* Marquee slider styling start */
+.marquee {
+  position: relative;
+  width: 100vw;
+  max-width: 100%;
+  height: 200px;
+  overflow-x: hidden;
+}
+.contentname{
+	font-size: 90px;
+	color:white;
+	font-family: sans-serif;
 }
 
+.track {
+  position: absolute;
+  white-space: nowrap;
+  will-change: transform;
+  animation: marquee 4s linear infinite;
+}
+
+@keyframes marquee {
+  from { transform: translateX(0); }
+  to { transform: translateX(-50%); }
+}
