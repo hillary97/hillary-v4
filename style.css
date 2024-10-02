@@ -18,17 +18,17 @@
 	border-top-left-radius:100px ;
 	border-bottom-right-radius:100px ;
 }
-
+/*
 .about .anim{
 	transition:font-size 3s,opacity 2s,border-radius 2s,padding 4s,color 2s, border-bottom 2s;
-}
-.about .anim2{
+
+.about.anim2{
 	width: 500px;
 	height: 500px;
 	transition:font-size 3s,opacity 2s,border-radius 2s,padding 4s,color 2s, border-bottom 2s, width 2s, height 2s;
 }
 
-.about :hover .anim{
+.about.anim{
 	font-size: 20px;
 	padding: 5px;
 	opacity: 1.0;
@@ -37,7 +37,7 @@
 	border-bottom: 2px solid green;
 
 }
-.about :hover .anim2{
+.about .anim2 :hover{
 	font-size: 20px;
 	padding: 5px;
 	opacity: 1.0;
@@ -47,23 +47,39 @@
 	padding: 20px;
 
 }
+}
+*/
 
-
-/*.sticky{
+.gation{
 	position: sticky;
-	top:0;
+	top: 0px;
 	border-radius: 20px;
-	font-size: px;
-	padding: 0px 20px;
-	background-image: linear-gradient(to right top, #09111d, #02181f, #041c1c, #101f17, #1d2114);
-	float: right;
+	font-size: 20px;
+	padding: ;
+	margin-top: 0px;
+	color: white;
 }
 
 	
 }
 .sticky:hover{
 	background-color: ;
-}*/
+}
+.anim{
+	background-color: ;
+	width: 250px;
+	height: 300px;
+	margin: auto;
+	border-radius: 20px;
+	color: white;
+	font-size: 20px;
+	text-align: center;
+	padding-top: 40px;
+	background-image: linear-gradient(to right top, #09111d, #02181f, #041c1c, #101f17, #1d2114);
+
+
+}
+
  .kaman{
  	opacity: 0.8;
  	border-radius: 20px;
@@ -78,11 +94,13 @@
   max-width: 100%;
   height: 200px;
   overflow-x: hidden;
+  background-color: ;
 }
 .contentname{
 	font-size: 90px;
 	color:white;
-	font-family:times ;
+	font-family:;
+	opacity: 1;
 
 }
 
@@ -96,5 +114,22 @@
 @keyframes marquee {
   from { transform: translateX(0); }
   to { transform: translateX(-40%); }
+}
+
+@keyframes appear {
+  from { opacity:0; }
+  to { opacity: 1.0; }
+}
+
+.form-control{
+	background: transparent;
+	border: 0px;
+	border-bottom: 
+}
+.form-control::placeholder{
+	color:gray;
+}
+input[type=text]:focus{
+	background: transparent;
 }
 
