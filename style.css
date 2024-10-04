@@ -11,6 +11,7 @@
 	align-items: center;
 	padding: 10px;
 }
+
 .hero:hover{
 	background-color: ;
 	border: 1px solid darkorange;
@@ -65,20 +66,30 @@
 .sticky:hover{
 	background-color: ;
 }
+
 .anim{
-	background-color: ;
+	background-color: white ;
 	width: 250px;
 	height: 300px;
 	margin: auto;
 	border-radius: 20px;
-	color: white;
+	color:#02181f; 
 	font-size: 20px;
 	text-align: center;
 	padding-top: 40px;
-	background-image: linear-gradient(to right top, #09111d, #02181f, #041c1c, #101f17, #1d2114);
+	
+	
+
+}
+.anim:hover{
+	background-color: ;
+	color: red;
+	animation: flow 2s;
+	background: ;
 
 
 }
+
 
  .kaman{
  	opacity: 0.8;
@@ -116,9 +127,11 @@
   to { transform: translateX(-40%); }
 }
 
-@keyframes appear {
-  from { opacity:0; }
-  to { opacity: 1.0; }
+@keyframes flow {
+  from {transform:translateX(-20%);
+  background:transparent }
+  to { transform:translateX(0%);
+  background-color:red }
 }
 
 .form-control{
@@ -127,9 +140,47 @@
 	border-bottom: 
 }
 .form-control::placeholder{
-	color:gray;
+	color:white;
+	padding: 10px;
+
+}
+input[type=text]{
+	background: transparent;
+	color: white;
+}
+input[type=email]{
+	background: transparent;
+	color: white;
+}
+textarea[type=text]{
+	background: transparent;
+	color: white;
 }
 input[type=text]:focus{
 	background: transparent;
+	color: white;
+}
+input[type=email]:focus{
+	background: transparent;
+	color: white;
+}
+textarea[type=text]:focus{
+	background: transparent;
+	color: white;
 }
 
+.tech button{
+	padding: 10px;
+	border-radius: 20px;
+	margin: 5px;
+	color: #02181f;
+	font-size: 20px;
+
+}
+.tech button:hover{
+	background-color: #02181f;
+	color: white;
+}
+.hidden .con{
+	display: none;
+}
