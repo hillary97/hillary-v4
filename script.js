@@ -1,21 +1,9 @@
-
-		function front(){
-
+function graphics(){
 			
-			var conte=document.getElementById('contentsection').innerHTML="<p >Html, css, boostrap, react,javascript</p>";
+			var conte=document.getElementById('areas-of-expertise').innerHTML="<p>Figma, Canva, Adobe Photoshop, Illustrator, CoreDraw</p>";
 		}
-		function back(){
-			var conte=document.getElementById('contentsection').innerHTML="<p> PHP, Laravel, Node Js, MySql, Python, Sql, Java </p>";
-		}
-		function db(){
+function languages(){
 			
-			var conte=document.getElementById('contentsection').innerHTML="<p> Maria DB, MySql, Sql </p>";
-		}function graphics(){
-			
-			var conte=document.getElementById('contentsection').innerHTML="<p>Figma, Canva, Adobe Photoshop, Illustrator, CoreDraw</p>";
-		}
-		function vc(){
-			
-			var conte=document.getElementById('contentsection').innerHTML="<p>GIT, Github</p>";
+			var conte=document.getElementById('areas-of-expertise').innerHTML="<p>Python, Html, CSS, Bootstrap, PHP, Laravel, C++, C, React, Javascript, Kotlin, Django, C#, SQL, MySQL,Asp.net, Java, GIT, Github</p>";
 		}
 	
