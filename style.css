@@ -232,7 +232,6 @@
 
 }
 .anim1{
-	background-color:  ;
 	width: 100%;
 	margin: auto;
 	height: ;
@@ -260,13 +259,13 @@
 	display:none;
 	height:auto ;
 	color: white;
-	margin: 20px;
+	margin: 10px;
 }
 .anim1:hover p,.anim2:hover p{
 	background-color:  ;
 	color: limegreen ;
 	display: block;
-	padding: 30px;
+	padding: 20px;
 	padding-top: 10px;
 	text-align: left;
 
