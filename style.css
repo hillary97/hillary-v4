@@ -85,14 +85,15 @@
   position: relative;
   width: 100vw;
   max-width: 100%;
-  height: 200px;
+  height: 250px;
   overflow-x: hidden;
   background-color: ;
 }
 .contentname{
-	font-size: 60px;
+	font-size: 180px;
 	color:limegreen;
 	font-family:;
+	font-stretch: ultra-expanded;
 	opacity: 1;
 	font-weight: bolder;
 
